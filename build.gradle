@@ -37,5 +37,6 @@ sonarqube {
         property "sonar.projectName", "Java :: Simple Project :: SonarQube Scanner for Gradle"
         property "sonar.projectKey", "org.sonarqube:java-gradle-simple"
         property "sonar.sourceEncoding", "UTF-8"
+        property "sonar.sources", "src"
     }
 }
